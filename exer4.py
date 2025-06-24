@@ -8,7 +8,6 @@ def media(arr):
 
 def prox_media(arr):
     m_lista = media(arr)
-    n_prox = 10000000000
     dif = 10000000000
     for j in range(len(arr)):
         if abs(abs(arr[j]) - abs(m_lista)) < dif:
